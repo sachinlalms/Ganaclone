@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "poppins";
+  background-color: #111;
+  color: white;
+}
+.header {
+  background-color: #21242e;
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  align-items: center;
+}
+.logo {
+  font-family: "Great Vibes";
+  font-weight: 600;
+  font-size: 45px;
+  color: #e72c30;
+  cursor: pointer;
+}
+.right_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search {
+  display: flex;
+  align-items: center;
+  border: solid white;
+  border-radius: 15px;
+  width: 402px;
+  height: 42px;
+  margin: 10px;
+  background-color: white;
+}
+.search p {
+  color: white;
+  margin: 2px;
+  font-size: 15px;
+  font-weight: 600px;
+}
+.search img {
+  width: 17px;
+  height: 17px;
+  margin: 6px;
+  align-items: center;
+}
+.search input {
+  border: none;
+  border-radius: 15px;
+  margin: 0 10px;
+  width: 285px;
+  height: 35px;
+}
+.searchin {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+  background-color: red;
+  border-radius: 15px;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+}
+.signin {
+  margin-left: 10px;
+}
+.signin a {
+  color: red;
+  font-size: 15px;
+  text-decoration: none;
+}
+.main {
+  display: flex;
+  width: 1100px;
+  height: 1001px;
+  margin: auto;
+  background-color: #111;
+  overflow-y: scroll;
+  position: relative;
+}
+.left_list {
+  width: 290px;
+  background-color: #21242e;
+  height: 1000px;
+  margin-top: 2px;
+}
+.queue {
+  width: 100%;
+  height: 35px;
+  background-color: #21242e;
+
+  padding: 6px;
+  padding-left: 10px;
+  overflow-y: hidden;
+}
+.song_list {
+  background-color: #111;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.song_list img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.title {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.song_list1 {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+.song_list1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.title {
+  margin-left: 10px;
+  font-weight: 600;
+}
+.right_cards {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+.first_row {
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  margin-left: 20px;
+  padding: 8px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  width: 150px;
+  height: 170px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.card .card_title {
+  color: #dcdcdc;
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 4px;
+  font-weight: 600;
+}
+.card_titles {
+  color: #dcdcdc;
+  margin-left: 35px;
+
+  margin-top: 4px;
+  font-weight: 600;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #21242e;
+  color: white;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+.playing_song {
+  display: flex;
+}
+.playing_song img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.playing_song .icons {
+  width: 25px;
+  height: 25px;
+}
+.icons {
+  display: flex;
+  margin-top: 12px;
+  width: 25px;
+  height: 25px;
+}
+.icons_play {
+  background-color: red;
+  border-radius: 55px;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+}
+.icons_play img {
+  width: 25px;
+  height: 25px;
+}
+.head {
+  margin-left: -1px;
+  font-size: 15px;
+  margin-right: 5px;
+}
+.subhed {
+  margin-left: 10px;
+  font-size: 12px;
+  margin-right: 5px;
+}

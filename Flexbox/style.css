@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+.container div {
+  border: 1px #ccc solid;
+}
+.box-1 {
+  flex: 1;
+}
+.box-2 {
+  flex: 1;
+}
+.box-3 {
+  flex: 1;
+}
+#e72c30;
+#21242e;
+#111;
+#dcdcdc;
